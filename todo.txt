@@ -1,0 +1,7 @@
+authorization page
+components:
+    questions
+    result
+    next-back
+    send
+choice of test
