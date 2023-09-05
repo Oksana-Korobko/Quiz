@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Nunito', sans-serif;
+    background-color: mediumturquoise; 
+    height: 100vh; 
+}
+.App {
+    margin-bottom: 20px;
+    position: relative;
+    min-width: 100px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;      
+}
+h1 {
+    text-align: center;
+}
+/* .questions {
+    border: 1px solid mediumturquoise;
+    padding: 10px;
+    
+} */
+
+ 
