@@ -1,7 +1,9 @@
 authorization page
 components:
-    questions
     result
     next-back
     send
-choice of test
+    different types of questions   
+    
+choice of test 
+send spam
