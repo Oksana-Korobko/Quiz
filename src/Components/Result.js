@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Result = () => {
+const Result = ({correct}) => {
   return (
     <div>
-        
+        Кількість правильних відповідей: {correct}
     </div>
   )
 }

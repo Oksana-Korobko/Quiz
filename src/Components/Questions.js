@@ -1,12 +1,12 @@
 import React from 'react'
 import './Questions.css'
+import binary from '../test'
 
-const Questions = ({question , onClickVariant}) => {
+const Questions = ({step, question , onClickVariant}) => {
+  const percent = Math.round(step/binary.length*100);
   return (
     <div>
-        <div className="progress">
-            <div style={{ width: '20%' }} className="progress__inner"></div>
-        </div>    
+        
         <div className='questions'>
             <h3>{question.title}</h3>
             <ul>
@@ -17,6 +17,9 @@ const Questions = ({question , onClickVariant}) => {
             }
             </ul>        
         </div>
+        <div className="progress">
+            <div style={{ width: `${percent}%` }} className="progress__inner"></div>
+        </div>    
     </div>
   )
 }

@@ -11,8 +11,8 @@ body {
 .App {
     margin-bottom: 20px;
     position: relative;
-    min-width: 100px;
-    max-width: 500px;
+    width: 500px;
+    height: 450px;
     background-color: #fff;
     border-radius: 15px;
     padding: 15px;      
@@ -20,10 +20,8 @@ body {
 h1 {
     text-align: center;
 }
-/* .questions {
-    border: 1px solid mediumturquoise;
-    padding: 10px;
-    
-} */
+.questions {
+    height: 340px;
+}
 
  
